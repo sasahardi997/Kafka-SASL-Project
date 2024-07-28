@@ -37,7 +37,7 @@ public class SaslProducer {
 
         for(int i = 0; i < 10; i++) {
             //Create a Producer Record (message that is sent)
-            ProducerRecord<String, String> producerRecord = new ProducerRecord<>("sasl_topic", "Aleksandar uradjen" + i);
+            ProducerRecord<String, String> producerRecord = new ProducerRecord<>("sasl_topic", "Aleksandar" + i);
 
             try {
                 //Send data and catch callback
